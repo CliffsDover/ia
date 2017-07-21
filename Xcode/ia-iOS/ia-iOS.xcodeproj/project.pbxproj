@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A672DF581F21CFDC00635BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A672DF571F21CFDC00635BA2 /* main.m */; };
-		A672DF5B1F21CFDD00635BA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A672DF5A1F21CFDD00635BA2 /* AppDelegate.m */; };
-		A672DF5E1F21CFDD00635BA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A672DF5D1F21CFDD00635BA2 /* ViewController.m */; };
 		A672DF611F21CFDD00635BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A672DF5F1F21CFDD00635BA2 /* Main.storyboard */; };
 		A672DF631F21CFDD00635BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A672DF621F21CFDD00635BA2 /* Assets.xcassets */; };
 		A672DF661F21CFDD00635BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A672DF641F21CFDD00635BA2 /* LaunchScreen.storyboard */; };
@@ -133,6 +130,7 @@
 		A672E0DC1F21D82600635BA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A672E0CE1F21D82600635BA2 /* OpenGLES.framework */; };
 		A672E0DD1F21D82600635BA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A672E0CF1F21D82600635BA2 /* QuartzCore.framework */; };
 		A672E0DE1F21D82600635BA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A672E0D01F21D82600635BA2 /* UIKit.framework */; };
+		A672E0E11F21DB0500635BA2 /* res in Resources */ = {isa = PBXBuildFile; fileRef = A672E0E01F21DB0500635BA2 /* res */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,11 +187,6 @@
 
 /* Begin PBXFileReference section */
 		A672DF531F21CFDC00635BA2 /* ia-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ia-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A672DF571F21CFDC00635BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A672DF591F21CFDC00635BA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A672DF5A1F21CFDD00635BA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A672DF5C1F21CFDD00635BA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A672DF5D1F21CFDD00635BA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A672DF601F21CFDD00635BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A672DF621F21CFDD00635BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A672DF651F21CFDD00635BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -411,6 +404,7 @@
 		A672E0CE1F21D82600635BA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A672E0CF1F21D82600635BA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A672E0D01F21D82600635BA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A672E0E01F21DB0500635BA2 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../res; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +438,7 @@
 		A672DF4A1F21CFDC00635BA2 = {
 			isa = PBXGroup;
 			children = (
+				A672E0DF1F21DAEA00635BA2 /* Bundle */,
 				A672E0A21F21D77400635BA2 /* Libraries */,
 				A672DF551F21CFDC00635BA2 /* ia-iOS */,
 				A672DF541F21CFDC00635BA2 /* Products */,
@@ -465,10 +460,6 @@
 				A672E02A1F21D0FC00635BA2 /* rl_utils */,
 				A672E04C1F21D11A00635BA2 /* include */,
 				A672DF6D1F21D0D400635BA2 /* src */,
-				A672DF591F21CFDC00635BA2 /* AppDelegate.h */,
-				A672DF5A1F21CFDD00635BA2 /* AppDelegate.m */,
-				A672DF5C1F21CFDD00635BA2 /* ViewController.h */,
-				A672DF5D1F21CFDD00635BA2 /* ViewController.m */,
 				A672DF5F1F21CFDD00635BA2 /* Main.storyboard */,
 				A672DF621F21CFDD00635BA2 /* Assets.xcassets */,
 				A672DF641F21CFDD00635BA2 /* LaunchScreen.storyboard */,
@@ -481,7 +472,6 @@
 		A672DF561F21CFDC00635BA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A672DF571F21CFDC00635BA2 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -778,6 +768,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A672E0DF1F21DAEA00635BA2 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				A672E0E01F21DB0500635BA2 /* res */,
+			);
+			name = Bundle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -886,6 +884,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A672DF661F21CFDD00635BA2 /* LaunchScreen.storyboard in Resources */,
+				A672E0E11F21DB0500635BA2 /* res in Resources */,
 				A672DF631F21CFDD00635BA2 /* Assets.xcassets in Resources */,
 				A672DF611F21CFDD00635BA2 /* Main.storyboard in Resources */,
 			);
@@ -945,7 +944,6 @@
 				A672DFE31F21D0D400635BA2 /* feature_event.cpp in Sources */,
 				A672DFCC1F21D0D400635BA2 /* ability_values.cpp in Sources */,
 				A672DFF21F21D0D400635BA2 /* io.cpp in Sources */,
-				A672DF5E1F21CFDD00635BA2 /* ViewController.m in Sources */,
 				A672DFDB1F21D0D400635BA2 /* config.cpp in Sources */,
 				A672E0191F21D0D400635BA2 /* populate_monsters.cpp in Sources */,
 				A672E0211F21D0D400635BA2 /* saving.cpp in Sources */,
@@ -976,7 +974,6 @@
 				A672E0111F21D0D400635BA2 /* mapgen_sub_rooms.cpp in Sources */,
 				A672DFDE1F21D0D400635BA2 /* drop.cpp in Sources */,
 				A672DFF41F21D0D400635BA2 /* item_artifact.cpp in Sources */,
-				A672DF5B1F21CFDD00635BA2 /* AppDelegate.m in Sources */,
 				A672E0121F21D0D400635BA2 /* mapgen_utils.cpp in Sources */,
 				A672E00E1F21D0D400635BA2 /* mapgen_river.cpp in Sources */,
 				A672DFEF1F21D0D400635BA2 /* insanity.cpp in Sources */,
@@ -984,7 +981,6 @@
 				A672DFD31F21D0D400635BA2 /* art.cpp in Sources */,
 				A672DFE21F21D0D400635BA2 /* feature_door.cpp in Sources */,
 				A672E0271F21D0D400635BA2 /* text_format.cpp in Sources */,
-				A672DF581F21CFDC00635BA2 /* main.m in Sources */,
 				A672DFE91F21D0D400635BA2 /* fov.cpp in Sources */,
 				A672E01C1F21D0D400635BA2 /* postmortem.cpp in Sources */,
 				A672E01D1F21D0D400635BA2 /* properties.cpp in Sources */,
