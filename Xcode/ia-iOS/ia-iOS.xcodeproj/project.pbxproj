@@ -1195,6 +1195,7 @@
 				A672DF6C1F21CFDD00635BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

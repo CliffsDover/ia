@@ -1,3 +1,12 @@
 [submodule "rl_utils"]
 	path = rl_utils
 	url = https://martin-tornqvist@github.com/martin-tornqvist/rl_utils.git
+[submodule "Xcode/ia-iOS/Libraries/SDL2-2.0.5"]
+	path = Xcode/ia-iOS/Libraries/SDL2-2.0.5
+	url = https://github.com/CliffsDover/ia-SDL2-2.0.5.git
+[submodule "Xcode/ia-iOS/Libraries/SDL2_mixer-2.0.1"]
+	path = Xcode/ia-iOS/Libraries/SDL2_mixer-2.0.1
+	url = https://github.com/CliffsDover/ia-SDL2_mixer-2.0.1.git
+[submodule "Xcode/ia-iOS/Libraries/SDL2_image-2.0.1"]
+	path = Xcode/ia-iOS/Libraries/SDL2_image-2.0.1
+	url = https://github.com/CliffsDover/ia-SDL2_image-2.0.1.git
